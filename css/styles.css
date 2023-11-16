@@ -1,0 +1,134 @@
+body {
+    font-family: Montserrat, sans-serif;
+}
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.splash {
+    height: 960px;
+    width: 640px;
+    background-image: url("../img/roan-lavery-lvy_VvdLmnA-unsplash.jpg");
+    background-size:  100% auto;
+    background-repeat: no-repeat, repeat;
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c6c8cc;
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 210px;
+    height: 180px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+.credits {
+    position: relative;
+    width: 100%;
+    color: #E5E7EB;
+    font-size: 15px;
+    margin-top: 80%;
+    text-align: center;
+}
+
+.form-container {
+    font-family: Poppins, sans-serif;
+    margin: 160px 0 0 50px;
+}
+
+.form-container h3 {
+    line-height: 0.1rem;
+}
+
+form {
+    margin-top: 30px;
+}
+
+
+
+.form-container h3:nth-of-type(4)
+{
+    margin-top: 40px;
+}
+
+.form-field {
+    margin-top: 100px;
+}
+
+.form-row {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+
+.sign-in-row {
+    width: 100%;
+    text-align: center;
+}
+
+.error
+{
+    font-size: 12px;
+    color: red;
+}
+small {
+    display: block;
+}
+
+.col label {
+    display: block;
+    letter-spacing: 1px;
+    font-size: .75rem;
+}
+
+.btn {
+    margin: 30px 0 20px 0;
+    height: 50px;
+    font-weight: 700;
+    width: 180px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease-in-out all .5s;
+}
+
+.btn:hover {
+    transition: ease-in-out all .5s;
+    background-color: #c6c8cc;
+}
+
+p > a:link
+{
+    color: #b1b9aa;
+    font-weight:600;
+}
+
+
+
+#sign-in > a {
+    text-decoration: none;
+}
+
+input {
+    height: 24px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    padding-left: 6px ;
+}
+
+input:active, input:focus
+{
+    outline-color: #4d7edf;
+    outline-style:ridge;
+    outline-offset: -1px;
+    outline-width: thin;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
