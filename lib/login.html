@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <script src="../js/signin.js" defer></script>"
+        <title>Sign In</title>
+    </head>
+<body>
+      <main class="container">
+        <div class="splash">
+            <div class="logo-container">
+                <img class="logo-img" src="../img/odin-lined.png" height="100" width="100" alt="Image from Unsplash by Roan Lavery">
+                    <p>ODIN</p>
+                </img>
+            </div>
+            <div class="credits">
+                <p>
+                    Photo by <a href="https://unsplash.com/@roanlavery?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Roan Lavery</a> on <a href="https://unsplash.com/photos/green-fern-plant-in-close-up-photography-lvy_VvdLmnA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                </p>
+            </div>
+
+
+        </div>
+        <div class="form-container">
+            <h3>This is not a real online service! You know you need something</h3>
+            <h3> like this in your life  to help you realize your deepest dreams.</h3>
+            <h3>Sign up now t oget started.</h3>
+            <h3>You know you want to.</h3>
+
+            <div class="form-field">
+                <h3 style="text-align: center; margin-bottom: 20px;">Let's do this! Sign In!</h3>
+                <form action="#" method="post">
+                    <div class="form-details" >
+                        <!-- Email and phone number section -->
+                        <div class="form-row" style="justify-content: center;">
+                            <div class="col">
+                                <label for="email">EMAIL</label>
+                                <input type="email" required name="email" id="email">
+                                <small id="error_email" class="error" value=""></small>
+                            </div>
+                        </div>
+                        <!-- Pass word section -->
+                        <div class="form-row" style="justify-content: center;">
+                            <div class="col">
+                                <label for="pwd">PASSWORD</label>
+                                <input type="password" required name="pwd" id="pwd">
+                                <small id="error_pwd" class="error" value=""></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sign-in-row">
+                        <button type="submit" class="btn sign-in-row ">Sign In</button>
+                    <p id="sign-in">Don't have an account? <a href="../index.html">Sign Up</a></p>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
