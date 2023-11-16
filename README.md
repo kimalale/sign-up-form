@@ -1,2 +1,3 @@
-# sign-up-form
-TOP Project to test my html form skills
+# Sigh-Up Form
+## Objective:
+    TOP Project to test my html form skills.
