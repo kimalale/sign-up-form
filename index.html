@@ -7,11 +7,88 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Landing page.</title>
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <script src="./js/signup.js" defer></script>"
+    <title>Sign Up</title>
 </head>
 <body>
+    <main class="container">
+        <div class="splash">
+            <div class="logo-container">
+                <img class="logo-img" src="./img/odin-lined.png" height="100" width="100" alt="Image from Unsplash by Roan Lavery">
+                    <p>ODIN</p>
+                </img>
+            </div>
+            <div class="credits">
+                <p>
+                    Photo by <a href="https://unsplash.com/@roanlavery?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Roan Lavery</a> on <a href="https://unsplash.com/photos/green-fern-plant-in-close-up-photography-lvy_VvdLmnA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+                </p>
+            </div>
+
+
+        </div>
+        <div class="form-container">
+            <h3>This is not a real online service! You know you need something</h3>
+            <h3> like this in your life  to help you realize your deepest dreams.</h3>
+            <h3>Sign up now t oget started.</h3>
+            <h3>You know you want to.</h3>
+
+            <div class="form-field">
+                <h3>Let's do this!</h3>
+                <form action="#blank" method="post">
+                    <div class="form-details">
+                        <!-- Names section -->
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" required name="first_name" id="first_name">
+                                <!-- <small name="error_first_name" class="error" value=""></small> -->
+                            </div>
+
+                            <div class="col">
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" required name="last_name" id="last_name">
+                                <!-- <small name="error_last_name" class="error" value=""></small> -->
+                            </div>
+
+                        </div>
+                        <!-- Email and phone number section -->
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="email">EMAIL</label>
+                                <input type="email" required name="email" id="email">
+                                <small id="error_email" class="error" value=""></small>
+                            </div>
+
+                            <div class="col">
+                                <label for="phone_number">PHONE NUMBER</label>
+                                <input type="tel" required name="phone_number" maxlength="10" minlength="10" id="phone_number">
+                                <small id="error_number" class="error" value=""></small>
+                            </div>
+                        </div>
+                        <!-- Pass word section -->
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="pwd">PASSWORD</label>
+                                <input type="password" required name="pwd" id="pwd">
+                                <small id="error_pwd" class="error" value=""></small>
+                            </div>
+                            <div class="col">
+                                <label for="pwd_confirm">CONFIRM PASSWORD</label>
+                                <input type="password" required name="pwd_confirm"  id="pwd_confirm">
+                                <small id="error_pwd_confirm" class="error" value=""></small>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn">Create Account</button>
+                    <p id="sign-in">Already have an account? <a href="./lib/login.html">Log in</a></p>
+                </form>
+            </div>
+
+        </div>
+    </main>
 
 </body>
 </html>
